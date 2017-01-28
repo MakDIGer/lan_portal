@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension version="3.1" type="template" client="site">
+	<name>Kgdnet</name>
+	<version>1.0</version>
+	<creationDate>28.01.2017</creationDate>
+	<author>Makarin Nikolay and HTML5 UP</author>
+	<authorEmail>admin@kgdnet.ru</authorEmail>
+	<copyright>Copyright (C) 2017 KGDNET.RU. All rights reserved.</copyright>
+	<description>Портал локальной сети.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>assets</folder>
+	</files>
+	<positions>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>footer</position>
+	</positions>
+</extension>
