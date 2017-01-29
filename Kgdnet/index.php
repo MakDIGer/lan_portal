@@ -8,7 +8,6 @@ defined('_JEXEC') or die;
 
 $doc = JFactory::getDocument();
 
-$doc->setTitle('KGDNET.RU - '.$this->getTitle());
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/assets/css/main.css');
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/assets/js/jquery.min.js');
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/assets/js/jquery.dropotron.min.js');
@@ -70,36 +69,14 @@ $doc->setHtml5(true);
 				<div id="main-wrapper">
 					<div class="container">
 						<div class="row 200%">
-							<div class="4u 12u(medium)">
-
-								<!-- Sidebar -->
-									<div id="sidebar">
-										<section class="widget thumbnails">
-											<h3>Мы используем:</h3>
-											<div class="grid">
-												<div class="row 50%">
-													<div class="6u"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
-													<div class="6u"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
-													<div class="6u"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
-													<div class="6u"><a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a></div>
-												</div>
-											</div>
-										</section>
-									</div>
-
-							</div>
-							<div class="8u 12u(medium) important(medium)">
+							<div class="12u 12u(medium)">
 
 								<!-- Content -->
 									<div id="content">
 										<section class="last">
-											<h2>Что такое KGDNET?</h2>
-											<p><strong>KGDNET</strong> - это частная локальная сеть, объединяющая компьютеры, ноутбуки, мобильные телефоны, планшеты, телевизоры, сетевые ТВ-терминалы
-											и игровые приставки в единую сеть на рекордно быстрой скорости до 1 Гбит/сек.</p>
-											<p>Всем пользователям сети доступны внутрисетевые сервисы такие как: <strong>безлимитный доступ в интернет</strong>, <strong>ip-телефония</strong> и <strong>облачное хранение файлов</strong> на общем внутрисетевом сервере.</p>
+										<jdoc:include type="component" />
 										</section>
 									</div>
-
 							</div>
 						</div>
 					</div>
