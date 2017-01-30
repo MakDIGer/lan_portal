@@ -48,23 +48,9 @@ $doc->setHtml5(true);
 							</nav>
 					</header>
 				</div>
-			<!-- Banner -->
-				<div id="banner-wrapper">
-					<div id="banner" class="box container">
-						<div class="row">
-							<div class="image 8u">
-								<p><img src="<?php echo $this->baseurl . '/templates/' . $this->template; ?>/images/switches.jpg" /></p>
-							</div>
-							<div class="image 4u">
-								<p><img src="<?php echo $this->baseurl . '/templates/' . $this->template; ?>/images/server.jpg" /></p>
-							</div>
-						</div>
-					</div>
-				</div>
 
 			<!-- Features -->
 				<jdoc:include type="modules" name="position-1" />
-
 			<!-- Main -->
 				<div id="main-wrapper">
 					<div class="container">
