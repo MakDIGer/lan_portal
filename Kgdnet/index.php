@@ -122,7 +122,7 @@ $doc->setHtml5(true);
 							<div class="12u">
 								<div id="copyright">
 									<ul class="menu">
-										<li>&copy; 2016-2017 <a href="http://kgdnet.ru">KGDNET.RU</a> Все права защищены.</li><li>Дизайн: <a href="http://html5up.net">HTML5 UP</a></li>
+										<li><jdoc:include type="modules" name="footer" /></li>
 									</ul>
 								</div>
 							</div>
