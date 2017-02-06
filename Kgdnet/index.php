@@ -76,36 +76,21 @@ $doc->setHtml5(true);
 								<!-- Links -->
 									<section class="widget links">
 										<h3>Локалка</h3>
-										<ul class="style2">
-											<li><a href="#">Подключение к сети</a></li>
-											<li><a href="#">Локальные ресурсы</a></li>
-											<li><a href="#">Файлохранилище</a></li>
-											<li><a href="#">Тест скорости</a></li>
-											<li><a href="#">Возможные проблемы</a></li>
-										</ul>
+										<jdoc:include type="modules" name="position-2" />
 									</section>
 							</div>
 							<div class="3u 6u$(medium) 12u$(small)">
 								<!-- Links -->
 									<section class="widget links">
 										<h3>Интернет</h3>
-										<ul class="style2">
-											<li><a href="#">Подключение</a></li>
-											<li><a href="#">Настройка</a></li>
-											<li><a href="#">Email</a></li>
-											<li><a href="#">Возможные проблемы</a></li>
-										</ul>
+										<jdoc:include type="modules" name="position-3" />
 									</section>
 							</div>
 							<div class="3u 6u(medium) 12u$(small)">
 								<!-- Links -->
 									<section class="widget links">
 										<h3>ip-телефония</h3>
-										<ul class="style2">
-											<li><a href="#">Подключение</a></li>
-											<li><a href="#">Настройка</a></li>
-											<li><a href="#">Возможные проблемы</a></li>
-										</ul>
+										<jdoc:include type="modules" name="position-4" />
 									</section>
 							</div>
 							<div class="3u 6u$(medium) 12u$(small)">
