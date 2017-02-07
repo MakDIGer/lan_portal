@@ -96,10 +96,7 @@ $doc->setHtml5(true);
 							<div class="3u 6u$(medium) 12u$(small)">
 								<!-- Contact -->
 									<section class="widget contact last">
-										<h3>Техническая поддержка</h3>
-										<p>Email: admin@kgdnet.ru,<br />
-										Тел. внутр.: 1005/1008,<br />
-										Тел. гор.: +7 (4012) 52-74-43</p>
+										<jdoc:include type="modules" name="support" />
 									</section>
 							</div>
 						</div>

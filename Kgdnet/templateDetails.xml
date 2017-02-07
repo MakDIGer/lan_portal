@@ -24,6 +24,7 @@
 		<position>position-2</position>
 		<position>position-3</position>
 		<position>position-4</position>
+		<position>support</position>
 		<position>footer</position>
 	</positions>
 </extension>
